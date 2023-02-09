@@ -497,6 +497,12 @@ body{
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
 }
+@media(max-width: 480px){
+    .popup-box{
+        width: 250px;
+        height: 250px;
+    }
+}
 .popup-box h3{
     font-weight: bold;
     text-align: center;
